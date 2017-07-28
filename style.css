@@ -1,8 +1,8 @@
 *{margin:0;padding:0}
 .flex-container{
-	
+
 	height:400px;
-	width:1000px;
+	width:600px;
 	display:flex;
 	background:gray;
 }
@@ -12,6 +12,27 @@
 	background:black;
 	margin:10px
 }
+/*This is for normal box css*/
+
+
+.normal-box{
+	width:600px;
+	height:400px;
+	background:blue
+}
+
+
+.normal-box-items{
+	width:150px;
+	height:150px;
+	background:yellow;
+	float:left;
+	margin:10px
+}
+
+
+
+/**/
 .main{
 	height:400px;
 	width:1000px;
@@ -58,7 +79,7 @@
 	width:1000px;
 	background:lime;
 	justify-content:flex-end;
-	
+
 }
 .flex-end-item{
 	width:200px;
@@ -67,45 +88,44 @@
 	margin:10px
 }
 .flex-center{
-    display: flex;
-    height: 400px;
-    width: 1000px;
-    background: #673AB7;
-    justify-content: center;
+	display: flex;
+	height: 400px;
+	width: 1000px;
+	background: #673AB7;
+	justify-content: center;
 }
 .flex-center-item{
-    width: 200px;
-    height: 200px;
-    background: rgb(184, 217, 232);
-    margin: 10px;
+	width: 200px;
+	height: 200px;
+	background: rgb(184, 217, 232);
+	margin: 10px;
 }
 .space-between{
-    display: flex;
-    height: 400px;
-    width: 1000px;
-    background: #673AB7;
-    justify-content:space-between;	
+	display: flex;
+	height: 400px;
+	width: 1000px;
+	background: #673AB7;
+	justify-content:space-between;
 }
 .space-between-item{
 	width: 200px;
-    height: 200px;
-    background: #54c5b1;
-    margin: 10px;
+	height: 200px;
+	background: #54c5b1;
+	margin: 10px;
 }
 .space-around{
 	display: flex;
-    height: 400px;
-    width: 1000px;
-    background: #8BC34A;
-    justify-content:space-around;		
+	height: 400px;
+	width: 1000px;
+	background: #8BC34A;
+	justify-content:space-around;
 }
 .space-around-item{
 	width: 200px;
-    height: 200px;
-    background: #3F51B5;
-    margin: 10px;
+	height: 200px;
+	background: #3F51B5;
+	margin: 10px;
 }
-
 
 
 
